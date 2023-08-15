@@ -57,7 +57,6 @@ namespace MyFSM
         private void Awake()
         {
             anim_Magelan = this.GetComponent<Animator>();
-            nav = GetComponent<NavMeshAgent>();
             Head = GetComponent<Enemy>();
             rigid = GetComponent<Rigidbody>();
             Init();
